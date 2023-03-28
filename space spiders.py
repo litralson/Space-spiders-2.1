@@ -257,7 +257,6 @@ print(hi_s)
 
 file1.truncate(0)
 file1.write(str(hi_score))
-#print(6)
 print(str(hi_score))
 
 
@@ -272,10 +271,5 @@ his.to_csv('high score.csv', header = None)
 data = pd.read_csv('high score.csv',header = None)
 print(data)
 hi = data.iat[0,1]
-#print(hi)
-#hi += 2
-#print(hi)
-#hi.to_csv('high score.csv', header = None)
-#data.iat[0,0] = hi
-#data
+
 
